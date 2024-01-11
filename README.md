@@ -5,11 +5,13 @@ This idea is implemented from a Research Paper which is provided in this Repo.
 
 If the detected image is Fake, then it detects the source of the Fake image (General Adversive Networks (GAN) or Diffusion Models (DM)).
 
-The model takes in the weights of a pretrained RESNET-50 model and then it fine-tunes those weights for our task.
+The model takes in the weights of a pretrained RESNET-50 model and then it fine-tunes those weights for our task by freezing the starting layers.
 
-The above-mentioned task achieves 87% accuracy to detect real and Fake Images (It was trained on Dalle Fake images and Laiom Real images and tested on Glide fake images).
+Level-1: Achieves 87% accuracy to detect real and Fake Images (It was trained on Dalle Fake images and Laiom Real images and tested on Glide fake images).
 
-The model trained for detecting the source of Fake image achieves a Testing Accuracy of 93%.
+Level-2: The model trained for detecting the source of Fake image achieves a Testing Accuracy of 93%.
+
+Level-3: To determine class from each gan and diffusion model , this model is still under work. (It is cuurently acheiving 55% testing accuracy, I am working on it to increase its accuracy)
 
 ## Dataset Links:
 
