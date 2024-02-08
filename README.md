@@ -76,7 +76,7 @@ For **Linear Classification**, I am training a neural network using TensorFlow's
  
 | Dataset              |    Accuracy   |     SOTA      |
 | -------------------- | ------------- | ------------- |
-| CycleGan             |    75.3%      |     87%       |
+| Glide-100 and Laion  |    75.3%      |     87%       |
 
 
 2. **Linear Classification**
