@@ -23,6 +23,7 @@ I have implemented deepfake image classification using Progan dataset. It involv
 - 2. **Gaussian Blur** :  It applies a gaussian blur filter with kernel size=(5,5) and std dev=0 to half of the images using np.random.rand()<0.5
 
 Effect of preprocessing on some random image
+
 ![Plot](preprocess.png "Before vs After")
 
 ## Feature Extraction
@@ -70,17 +71,21 @@ For **Linear Classification**, I am training a neural network using TensorFlow's
     - Used **Binary crossentropy loss** as Loss Function
 
 ## Accuracy
-I had trained on Progan image set
+- I had trained on Progan image set
 1. **Nearest Neighbor Method**
-- Glide-100 and Laion, I achieved 75% accuracy 
+ 
+| Dataset              |    Accuracy   |     SOTA      |
+| -------------------- | ------------- | ------------- |
+| CycleGan             |    75.3%      |     87%       |
+
 
 2. **Linear Classification**
 
 | Dataset              |    Accuracy   |     SOTA      |
 | -------------------- | ------------- | ------------- |
-| CycleGan             |    97.3%      |               |
-| Dalle and Laion      |    92.9%      |               |
-| Glide-100 and Laion  |    86.9%      |               |
+| CycleGan             |    97.3%      |     98.5%     |
+| Dalle and Laion      |    92.9%      |     86.78%    |
+| Glide-100 and Laion  |    86.9%      |     79%       |
 
 # Implementation of Paper-2
 
