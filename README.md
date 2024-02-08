@@ -75,12 +75,12 @@ I had trained on Progan image set
 - Glide-100 and Laion, I achieved 75% accuracy 
 
 2. **Linear Classification**
-| Dataset               | Accuracy | SOTA |
-|-----------------------|----------|------|
-| CycleGan              | 97.3%    |      |
-| Dalle and Laon        | 92.9%    |      |
-| Glide-100 and Laion   | 86.9%    |      |
 
+| Dataset              |    Accuracy   |     SOTA      |
+| -------------------- | ------------- | ------------- |
+| CycleGan             |    97.3%      |               |
+| Dalle and Laion      |    92.9%      |               |
+| Glide-100 and Laion  |    86.9%      |               |
 
 # Implementation of Paper-2
 
