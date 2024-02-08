@@ -44,7 +44,7 @@ Features from the images are extracted using the CLIP (Contrastive Language-Imag
 **Returns**:
 - nn_sim: The cosine similarity between the test feature vector and its nearest neighbor.
 
-# **Testing Phase**
+**Testing Phase**
 - After training on ProGan now I am testing on **Glide-100** and **Laion**
 - The **test.pt** file is loaded and converted to a NumPy array (which contains Images from **Glide** and **Laion**)
 - A loop iterates over each feature vector in features_test.
@@ -75,11 +75,11 @@ I had trained on Progan image set
 - Glide-100 and Laion, I achieved 75% accuracy 
 
 2. **Linear Classification**
-| Datset                | Accuracy | SOTA |
+| Dataset               | Accuracy | SOTA |
 |-----------------------|----------|------|
-| CycleGan              |   97.3%  |      |
-| Dalle and Laon        |   92.9%  |      |
-| Glide-100 and Laion   |   86.9%  |      |
+| CycleGan              | 97.3%    |      |
+| Dalle and Laon        | 92.9%    |      |
+| Glide-100 and Laion   | 86.9%    |      |
 
 
 # Implementation of Paper-2
