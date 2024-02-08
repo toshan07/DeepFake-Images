@@ -96,3 +96,6 @@ Level-2: The model trained for detecting the source of Fake image achieves a Tes
 Diffusion Models: [Link](https://drive.google.com/file/d/1FXlGIRh_Ud3cScMgSVDbEWmPDmjcrm1t/view)
 
 GAN's: [Link](https://drive.google.com/file/d/1z_fD3UKgWQyOTZIBbYSaQ-hz4AzUrLC1/view)
+
+You can load the .pt files from the `Data` Folder 
+The model created for Linear Classification in Paper4 is present with named `model_lc.h5`
